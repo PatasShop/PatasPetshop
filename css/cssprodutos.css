@@ -1,0 +1,66 @@
+html, body{
+background-color: #f3f8f1;
+}
+
+.logotipo{
+    margin-top: 1%;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barraPesquisa{
+    background-color: #C0E3EE;
+    width: 900px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    border-radius:50px 50px 50px 50px;
+    padding: 1%;
+    
+ }
+ .busca{
+    background-color:transparent;
+    height:26px;
+    width:900px;
+    border-radius: 15px;
+    font-size:18px;
+    font-style:italic;
+    float:left;
+    border:none;
+    padding-left: 10px;
+}
+.botaoBusca{
+    background-color: transparent;
+    float: right;
+    border-radius: 15px;
+}
+ 
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+.produtos{
+    margin-top: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+.pedidos{
+    margin-top: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+#seta {
+    margin-top: 80px;
+}
