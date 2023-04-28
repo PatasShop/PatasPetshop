@@ -1,0 +1,63 @@
+body{
+    background-color: #f3f8f1;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logotipo{
+    margin-top: 1%;
+}
+
+
+
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+.options1{
+    margin-top: 8%;
+    margin-left: 16%;
+    margin-right: 5%;
+    
+    
+}
+
+.options2{
+    margin-top: 2%;
+    margin-left: 29%;
+}
+
+.barraPesquisa{
+    background-color: #c0e3ee;
+    width: 900px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    padding: 1%;
+}
+.busca{
+    background-color:transparent;
+    height:26px;
+    width:900px;
+    border-radius: 50px;
+    font-size:18px;
+    font-style:italic;
+    float:left;
+    border:none;
+    padding-left: 10px;
+}
+.botaoBusca{
+    margin-right: 0%;
+    background-color: transparent;
+    float: right;
+    
+    border-radius: 15px;
+}
