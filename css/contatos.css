@@ -1,0 +1,31 @@
+body{
+    background-color: #f3f8f1;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logotipo{
+    margin-top: 1%;
+}
+
+
+
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+   
+
+.contato{
+    margin-left: 300px;
+}
+
+.dados{
+    margin-top: 20px;
+}
